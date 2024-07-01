@@ -22,6 +22,7 @@ top_processes=$(ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%mem | head -n 6)
 # Количество процессов
 process_count=$(ps -ef | wc -l)
 
+
 # Количество пользователей
 user_count=$(who | wc -l)
 
